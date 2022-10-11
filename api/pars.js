@@ -27,7 +27,6 @@ const isMark = (input) => {
 const pers2 = (inText) => {
     const outArr = []
     let T = inText
-    let index = 0
 
     while (T.length > 0) {
         const a = T.splice(0, 1)[0]
